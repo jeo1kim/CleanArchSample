@@ -10,7 +10,6 @@ import androidx.compose.ui.Modifier
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
-import com.example.cleanarchsample.presentation.coin_list.CoinListScreen
 import com.example.cleanarchsample.presentation.ui.theme.CleanArchSampleTheme
 import dagger.hilt.android.AndroidEntryPoint
 
@@ -33,7 +32,7 @@ class MainActivity : ComponentActivity() {
                         startDestination = Screen.CoinListScreen.route
                     ) {
                         composable(route = Screen.CoinListScreen.route) {
-                            CoinListScreen(navController = navController)
+//                            CoinListScreen(navController = navController)
                         }
 
                         composable(route = Screen.CoinDetailScreen.route + "/{coinId}") {
