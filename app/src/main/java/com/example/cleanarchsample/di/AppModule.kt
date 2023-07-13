@@ -1,4 +1,4 @@
-package com.example.cleanarchsample
+package com.example.cleanarchsample.di
 
 import com.example.cleanarchsample.common.Constants.BASE_URL
 import dagger.Module

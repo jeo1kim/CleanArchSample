@@ -32,11 +32,7 @@ class MainActivity : ComponentActivity() {
                         startDestination = Screen.CoinListScreen.route
                     ) {
                         composable(route = Screen.CoinListScreen.route) {
-//                            CoinListScreen(navController = navController)
-                        }
-
-                        composable(route = Screen.CoinDetailScreen.route + "/{coinId}") {
-//                            CoinDetailScreen()
+                            // Composable with nav screen
                         }
                     }
                 }
