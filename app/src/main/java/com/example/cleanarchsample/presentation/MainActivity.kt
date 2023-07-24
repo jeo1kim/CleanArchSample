@@ -33,6 +33,7 @@ class MainActivity : ComponentActivity() {
                     ) {
                         composable(route = Screen.ScreenName.route) {
                             // Composable with nav screen
+                            StockSearchScreen()
                         }
                     }
                 }
