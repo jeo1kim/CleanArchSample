@@ -30,6 +30,7 @@ class StockListViewModel @Inject constructor(
 
 
     init {
+        getStocks()
     }
 
     fun getStocks() {
