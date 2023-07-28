@@ -1,4 +1,4 @@
-package com.example.rvsample.presentation.list_screen
+package com.example.cleanarchsample.presentation.list_screen
 
 import android.content.Intent
 import android.os.Bundle
@@ -9,7 +9,6 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.example.cleanarchsample.R
 import com.example.cleanarchsample.presentation.detail_screen.DetailActivity
-import com.example.cleanarchsample.presentation.list_screen.MainViewModel
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint

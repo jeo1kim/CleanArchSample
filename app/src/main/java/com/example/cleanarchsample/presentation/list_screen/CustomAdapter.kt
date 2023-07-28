@@ -1,11 +1,11 @@
-package com.example.rvsample.presentation.list_screen
+package com.example.cleanarchsample.presentation.list_screen
 
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
-import com.example.rvsample.R
+import com.example.cleanarchsample.R
 import com.example.rvsample.data.remote.model.CoinDto
 
 

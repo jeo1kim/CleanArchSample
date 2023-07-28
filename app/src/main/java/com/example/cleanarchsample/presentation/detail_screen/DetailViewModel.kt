@@ -1,4 +1,4 @@
-package com.example.rvsample.presentation.detail_screen
+package com.example.cleanarchsample.presentation.detail_screen
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
