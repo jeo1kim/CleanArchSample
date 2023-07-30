@@ -13,7 +13,6 @@ import androidx.navigation.compose.rememberNavController
 import com.example.cleanarchsample.presentation.ui.theme.CleanArchSampleTheme
 import dagger.hilt.android.AndroidEntryPoint
 
-@AndroidEntryPoint
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -29,10 +28,11 @@ class MainActivity : ComponentActivity() {
 
                     NavHost(
                         navController = navController,
-                        startDestination = Screen.ScreenName.route
+                        startDestination = Screen.MainScreen.route
                     ) {
-                        composable(route = Screen.ScreenName.route) {
+                        composable(route = Screen.MainScreen.route) {
                             // Composable with nav screen
+
                         }
                     }
                 }
