@@ -10,13 +10,10 @@ import androidx.compose.ui.Modifier
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
-<<<<<<< Updated upstream
 import com.example.cleanarchsample.presentation.coin_details.CoinDetailScreen
 import com.example.cleanarchsample.presentation.coin_list.CoinListScreen
-=======
-import com.example.cleanarchsample.presentation.main_screen.MainScreen
->>>>>>> Stashed changes
 import com.example.cleanarchsample.presentation.ui.theme.CleanArchSampleTheme
+import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint
 class MainActivity : ComponentActivity() {
@@ -36,18 +33,12 @@ class MainActivity : ComponentActivity() {
                         navController = navController,
                         startDestination = Screen.CoinListScreen.route
                     ) {
-<<<<<<< Updated upstream
                         composable(route = Screen.CoinListScreen.route) {
                             CoinListScreen(navController = navController)
                         }
 
                         composable(route = Screen.CoinDetailScreen.route + "/{coinId}") {
                             CoinDetailScreen()
-=======
-                        composable(route = Screen.MainScreen.route) {
-                            // Composable with nav screen
-                            MainScreen()
->>>>>>> Stashed changes
                         }
                     }
                 }
